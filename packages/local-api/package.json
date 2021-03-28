@@ -1,0 +1,28 @@
+{
+  "name": "@jsnb/local-api",
+  "version": "1.0.0",
+  "publishConfig": {
+    "access": "public"
+  },
+  "files":[
+    "dist"
+  ],
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/cors": "^2.8.10",
+    "@types/express": "^4.17.11",
+    "typescript": "^4.2.3"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "http-proxy-middleware": "^1.0.6",
+    "@jsnb/local-client": "^0.1.0"
+  },
+  "scripts": {
+    "start": "tsc --watch --preserveWatchOutput",
+    "prepublishOnly": "tsc"
+  }
+}

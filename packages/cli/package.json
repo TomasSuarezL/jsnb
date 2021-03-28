@@ -1,0 +1,26 @@
+{
+  "name": "jsnb",
+  "version": "1.0.0",
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "dist"
+  ],
+  "bin": "dist/index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@jsnb/local-client":"^1.0.0"
+  },
+  "devDependencies": {
+    "@jsnb/local-api": "^1.0.0",
+    "commander": "^7.1.0",
+    "@types/node": "^14.14.35",
+    "esbuild": "0.8.26",
+    "typescript": "^4.2.3"
+  },
+  "scripts": {
+    "start": "tsc --watch --preserveWatchOutput",
+    "prepublishOnly": "esbuild src/index.ts --platform=node --outfile=dist/index.js --bundle --minify --define:process.env.NODE_ENV=\\\"production\\\""
+  }
+}
