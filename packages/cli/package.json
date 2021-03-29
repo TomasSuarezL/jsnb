@@ -17,10 +17,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@jsnote/local-client": "^1.0.0"
+    "@jsnb/local-client": "^1.0.0"
   },
   "devDependencies": {
-    "@jsnote/local-api": "^1.0.0",
+    "@jsnb/local-api": "^1.0.0",
     "@types/node": "^14.14.22",
     "commander": "^7.0.0",
     "esbuild": "0.8.26",
