@@ -1,6 +1,6 @@
 {
   "name": "jsnb",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "",
   "bin": "dist/index.js",
   "publishConfig": {
@@ -17,10 +17,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@jsnb/local-client": "^1.0.0"
+    "@jsnb/local-client": "^1.0.6"
   },
   "devDependencies": {
-    "@jsnb/local-api": "^1.0.0",
+    "@jsnb/local-api": "^1.0.6",
     "@types/node": "^14.14.22",
     "commander": "^7.0.0",
     "esbuild": "0.8.26",
